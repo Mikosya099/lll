@@ -1,0 +1,171 @@
+<style>
+        /* Global Styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #f8f8f8, #ffffff);
+            color: #a76262;
+            overflow-x: hidden;
+        }
+
+        /* Header Styles */
+        header {
+            text-align: center;
+            padding: 60px;
+            background: #2c05db;
+            color: rgb(253, 253, 253);
+            position: relative;
+        }
+
+        header .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        /* Видео-логотип */
+        .video-logo {
+            width: 200px; /* Размер видео */
+            height: 200px;
+            border-radius: 50%; /* Закругление, если нужно */
+            overflow: hidden;
+        }
+
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+            color: #FFC107;
+        }
+
+        header h1 {
+            font-size: 3em;
+            animation: buzz-animation 2s infinite;
+        }
+
+        @keyframes buzz-animation {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .hymn {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #f9f8fa;
+            font-style: italic;
+        
+        }
+
+        .highlight {
+            color: #f7f7f7;
+            font-weight: bold;
+        }
+
+        /* Teachers Section Styles */
+        .teachers-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 50px;
+            background: #f0f1f3;
+            border-top: 5px solid #9b1010;
+        }
+
+        .teacher-card {
+            background: rgb(252, 251, 251);
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(155, 4, 4, 0.2);
+            text-align: center;
+            width: 350px;
+            margin: 20px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .teacher-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(160, 2, 2, 0.3);
+        }
+
+        .teacher-photo {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-bottom: 3px solid #771111;
+        }
+
+        .teacher-card h2 {
+            margin: 20px 0 10px;
+            font-size: 1.8em;
+            color: #333;
+        }
+
+        .teacher-card p {
+            font-size: 1em;
+            padding: 0 20px 20px;
+            color: #666;
+        }
+
+        /* Button Style */
+        .check-level-btn {
+            display: inline-block;
+            padding: 20px 40px;
+            margin: 50px auto;
+            font-size: 1.4em;
+            background: #FFC107;
+            color: #750404;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background 0.3s ease, transform 0.3s ease;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .check-level-btn:hover {
+            background: #dd0404;
+            transform: scale(1.1);
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #2208b4;
+            color: rgb(254, 253, 255);
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            border-top: 5px solid #FFC107;
+        }
+    </style>
+
+
+
+     
+    <style>
+        /* Простые стили для навигации */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
